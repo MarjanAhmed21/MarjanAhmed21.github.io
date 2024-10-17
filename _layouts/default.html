@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header style="background-color: #007bff; color: white; padding: 20px; text-align: center;">
+        <h1>{{ site.title }}</h1>
+        <nav style="margin: 10px 0;">
+            <a href="/" style="color: white; margin-right: 20px;">Home</a>
+            <a href="/about" style="color: white; margin-right: 20px;">About</a>
+            <a href="/resume" style="color: white; margin-right: 20px;">Resume</a>
+            <a href="/contact" style="color: white;">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Marjan</p>
+    </footer>
+</body>
+</html>
