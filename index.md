@@ -3,7 +3,7 @@ layout: default
 title: Marjan Ahmed - The Portfolio
 ---
 
-# Welcome to My Portfolio
+# Welcome to Marjan's Portfolio
 
 Welcome to the portfolio of Marjan Ahmed. Here, you will find information about my projects, skills, and background.
 
