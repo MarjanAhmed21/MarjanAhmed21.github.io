@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Marjan Ahmed: The Portfolio
 ---
 
 # Welcome to My Portfolio
